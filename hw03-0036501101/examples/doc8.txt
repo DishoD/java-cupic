@@ -1,0 +1,1 @@
+{$FOR petlja s previse argumenata _ovo_je_visak $}

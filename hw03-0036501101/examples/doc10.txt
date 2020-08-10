@@ -1,0 +1,3 @@
+for petlja s premalo argumenata
+{$For i 1$}
+{$end$}

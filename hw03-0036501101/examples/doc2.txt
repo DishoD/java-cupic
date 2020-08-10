@@ -1,0 +1,6 @@
+\\komentar
+{$for i 1 10$}
+	\\komentar
+	{$= "ispis" i$}
+{$eNd$}
+\\komentar

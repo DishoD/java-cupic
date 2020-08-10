@@ -1,0 +1,4 @@
+This example will contain illegal unclosed tag.
+{$FOR i 0 10 
+	Tekst tekst tekst {$=$}
+{$END$}

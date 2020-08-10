@@ -1,0 +1,9 @@
+this document will contain for loop within a for loop
+{$FOR i "1"10$}
+	{$=i$}
+	{$FOR j -9 100 "\ntekst \\ \"\t"$}
+		{$FOR j -9 100 "\ntekst \\ \"\t"$}
+		some random text {$=j$} some random text
+		{$END$}
+	{$END$}
+{$END$}

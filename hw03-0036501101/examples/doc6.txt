@@ -1,0 +1,4 @@
+ovaj primjer sadrži nezatvoreni tag
+
+{$          
+For

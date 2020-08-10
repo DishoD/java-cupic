@@ -1,0 +1,110 @@
+#naslov {
+	text-align: center;
+	letter-spacing: 3px;
+	text-shadow: 3px 2px gray;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background: #E0EAFC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+p {
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 20px;
+}
+
+#tagSelector {
+	background: #00b09b;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	border-style: groove;
+    border: 10px solid black;
+    padding: 25px;
+    margin: 25px;
+}
+
+#photoSelector {
+	background: #D3CCE3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	border-style: groove;
+    border: 5px dotted gray;
+    padding: 25px;
+    margin: 25px;
+}
+
+#photo {
+	background: white;
+	margin: auto;
+    width: 80%;
+    border: 1px solid gray;
+    padding: 10px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+h3 {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.photoBig {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+}
+
+.empty {
+	display: none;
+}
+
+.tagBtns {
+	background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.tagBtns:hover {
+	background-color: #4CAF50; 
+    color: white;
+}
+
+.thumbnail {
+	background: url(loading.gif) 50% no-repeat;
+	
+	border: 1px solid green;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 150px;
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.thumbnail:hover {
+	opacity: 0.7;
+	border: 3px solid #0099cc;
+}

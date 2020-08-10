@@ -1,0 +1,5 @@
+this example does not contain
+FOR loop \{$FOR i 1 10$}
+it should escape for loop because of \\
+escape character.
+It should be only one TEXT token.

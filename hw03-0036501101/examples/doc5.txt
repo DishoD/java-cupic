@@ -1,0 +1,4 @@
+ovaj primjer sadrži nezatvoreni string
+{$fOr i "hahaha" 5 "maslac $}
+{$ENd       $}
+tekst

@@ -1,0 +1,7 @@
+this document will contain for loop in a for loop
+{$FOR i "1"10$}
+	{$=i$}
+	{$FOR j -9 100 5$}
+		some random text {$=j$} some random text
+	{$END$}
+{$END$}

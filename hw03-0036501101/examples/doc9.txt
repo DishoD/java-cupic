@@ -1,0 +1,4 @@
+teskt
+{$for i 1 perica$}
+ovo je nezatvorena for petlja
+END
